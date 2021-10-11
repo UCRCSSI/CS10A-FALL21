@@ -1,8 +1,8 @@
 # CS10A SI Fall 2021 - Kelly Downey
 
 ## Times
-* MW 12p - 1p
-* MW 1p - 2p
+* Tuesday & Thursday 12p - 1p
+* Tuesday & Thursday 1p - 2p
 
 <details>
     <summary>CS10AF20 Archive</summary>
