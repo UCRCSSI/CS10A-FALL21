@@ -7,6 +7,6 @@
 <details>
     <summary>CS10AF20 Archive</summary>
     This quarter, there will be new practice problems that will be used.
-    If you want extra practice problems, the previous year's SI contains a lot of unrepeated problems.
+    If you want extra practice problems, the previous year's SI is available.
     https://github.com/PikaSannnnn/SI-CS10A-FALL2020
 </details>
