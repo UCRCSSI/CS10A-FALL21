@@ -6,5 +6,5 @@
 
 <details>
     <summary>CS10AF20 Archive</summary>
-    [_](https://github.com/PikaSannnnn/SI-CS10A-FALL2020)
+    [Archive](https://github.com/PikaSannnnn/SI-CS10A-FALL2020)
 </details>
