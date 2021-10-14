@@ -162,7 +162,7 @@ else if (A_circ < pi) A_circ = pi * 3;
 std::cout << A_circ << std::endl;
 ```
 
-4) **CHALLENGE/PREVIEW** Will be Updated at 12:25
+4) **CHALLENGE/PREVIEW** Will be Updated at 12:30
 ```c++
 
 ```
