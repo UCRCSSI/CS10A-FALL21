@@ -162,14 +162,23 @@ else if (A_circ < pi) A_circ = pi * 3;
 std::cout << A_circ << std::endl;
 ```
 
-4) **CHALLENGE/PREVIEW** Will be Updated at 12:30
+4)
 ```c++
+int x = 4;
+int y = 2;
 
+y *= x;
+double a = pow(y, x);
+int b = static_cast<int> (a);
+
+while (b > 0) {
+    b /= 2;
+    std::cout << b << std::endl;
+}
 ```
 
 <details>
     <summary>Answers</summary>
-    
 
 </details>
 
