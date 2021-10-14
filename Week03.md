@@ -12,6 +12,13 @@ y = x * x;
 
 std::cout << x << " " << y << std::endl;
 ```
+<details>
+    <summary>Answer
+    </summary>
+
+`2 4`
+</details>
+
 2.
 ```c++
 int x; std::cin >> x;
@@ -25,6 +32,13 @@ else {
 
 std::cout << x << std::endl;
 ```
+<details>
+    <summary>Answer
+    </summary>
+
+`2 4`
+</details>
+
 3.
 ```c++
 int x = 3;
@@ -180,6 +194,35 @@ while (b > 0) {
 <details>
     <summary>Answers</summary>
 
+1) compile error: const changing, either remove const or remove `x=10` and do `x * 10`  
+   output if correct: `90`
+
+2) compile errors: double can't modulo, missing semicolon. change double to int, add semicolon after `y = x * 100`  
+   output if correct: `0`
+
+3) bugs: negative pi, results stored in int. Change sign of pi, change int to double  
+   output if correct:
+   ```c++
+   314 
+   3.14
+   ```
+
+4) no bugs or error  
+    ```c++
+    2048
+    1024
+    512
+    256
+    128
+    64
+    32
+    16
+    8
+    4
+    2
+    1
+    0
+    ```
 </details>
 
 #### Part B
