@@ -107,3 +107,95 @@ std::cout << b << std::endl;
     <summary>
     </summary>
 </details>
+
+### Trace N' Code
+<b>Instructions</b>  
+This activity consists of Part A and Part B.
+* Part A: Trace the code as demonstrated last session
+    * Provide the **output**
+    * List **all** errors and bugs that you think may be encountered (There may also be none)
+      * Include the fixes and the expected output
+      * **NOTE: DO NOT CHANGE THE OVERALL ATTEMPTED RESULTS**
+* Part B: Write code according to the prompt
+    * Trace through your code with the given inputs and outputs
+
+#### Part A
+1)
+```c++
+const int x = 3;
+int y = 0;
+y = x * x;
+x = 10;
+
+std::cout << x * y << std::endl;
+```
+
+2)
+```c++
+double x = 9;
+int y = 3;
+
+y = x % y;
+if (x == 0) {
+    y = x * 100
+}
+else if (x == 1) {
+    y = x * 10;
+}
+
+std::cout << y << std::endl;
+```
+
+3)
+```c++
+int a = 30;
+int r = 10;
+const double pi = -3.14;
+
+int A_circ = (r * r) * pi;
+if (A_circ < a) std::cout << a << std::endl;
+else std::cout << A_circ << std::endl;
+
+if (A_circ != pi) A_circ = pi;
+else if (A_circ < pi) A_circ = pi * 3;
+
+std::cout << A_circ << std::endl;
+```
+
+4) **CHALLENGE/PREVIEW** Will be Updated at 12:25
+```c++
+
+```
+
+<details>
+    <summary>Answers</summary>
+    
+
+</details>
+
+#### Part B
+
+1) Write code following prompt:  
+   A student wishes to use a program that can compare the density between a **sphere** and a **cube**.
+   Write a program that will ask the student to input the *mass* and *dimensions* (radius/sides) of the shape.
+   Output the densities of both objects and of which one has the larger density.  
+   If the two objects have the same exact density, output that they are equal.
+   Then determine which object has a larger density compared to water.
+   * Important Info:
+      * You do **NOT** need to convert units, assume it's the correct units
+      * density = mass / volume
+      * density of water = 997
+      * Volume of cube: s^3
+      * Volume of sphere: 4/3 * pi * r^3
+2) Write code for the following prompt:  
+   Ask the user for their full name.
+   If the first letters of their first and last name is not capitalized, capitalize it.
+   If any other names are uppercase, change them to lower case.
+   If there are any symbols other than a hyphen (-) or numbers, remove them from the name.
+   Output the person's full name. If the person's last name is more than 7 characters, print out the abbreviation.
+   On the next line, output the total letters in the name.  
+   
+   If the name *Kris Miller* is entered, output "Hello Professor Kris Miller!"  
+  Example Output (Jason jalepeno):  
+  Jason J.  
+  Number of letters: 13   
