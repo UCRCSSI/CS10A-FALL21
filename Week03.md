@@ -36,7 +36,8 @@ std::cout << x << std::endl;
     <summary>Answer
     </summary>
 
-`2 4`
+Even: `1`  
+Odd: `-1`
 </details>
 
 3.
@@ -54,6 +55,13 @@ y = z / x;
 
 std::cout << x << y << z << std::endl;
 ```
+<details>
+    <summary>Answer
+    </summary>
+
+`15230`
+</details>
+
 4.
 ```c++
 // test with -1, 16, and 20
@@ -73,6 +81,15 @@ else {
 
 std::cout << result << std::endl;
 ```
+<details>
+    <summary>Answer
+    </summary>
+
+Input: `-1`, Output: `0`  
+Input: `16`, Output: `3.2`  
+Input: `20`, Output: `2`  
+</details>
+
 5.
 ```c++
 int x = 3;
@@ -97,6 +114,13 @@ else {
 
 std::cout << a << std::endl;
 ```
+<details>
+    <summary>Answer
+    </summary>
+
+`29`
+</details>
+
 6. **CHALLENGE**
 ```c++
 int x = 3;
@@ -118,8 +142,10 @@ else if (a < 3)
 std::cout << b << std::endl;
 ```
 <details>
-    <summary>
+    <summary>Answer
     </summary>
+
+`4196144`
 </details>
 
 ### Trace N' Code
