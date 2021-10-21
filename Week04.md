@@ -138,3 +138,44 @@ Notice the pattern, as we give them a new number to guess, the range decreases. 
 If the user guesses correctly, exit loop, and output `Hooray!`, otherwise output your own "failed" message.
 
 Think: How can be use loops to simplify the code? How can we use decremental operators to do this?
+
+<details>
+<summary>Sample Solution</summary>
+
+```c++
+#include <iostream>
+
+int main() {
+    // srand(0)
+    int n = 0;
+    bool correct = 0;
+    while (n < 4) {
+        int random = rand() % (401 - (n * 100));
+        int i = 0;
+        while (i < 3) {
+            int input;
+            std::cout << "Guess a number: ";
+            std::cin >> input;
+            if (input != random) {
+                i++;
+                std::cout << "Wrong! Try Again!" << std::endl;
+            }
+            else {  // correct
+                i = 3;
+                n = 5;
+                correct = 1;
+            }
+        }
+        std::cout << "The Random Number: " << random << std::endl;
+        n++;
+    }
+
+    if (correct) {
+        std::cout << "Hooray!" << std::endl;
+    }
+    else {
+        std::cout << "Oh no! You got it all wrong!" << std::endl;
+    }
+}
+```
+</details>
