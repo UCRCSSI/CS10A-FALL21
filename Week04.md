@@ -95,3 +95,27 @@ while (n != 4) {
 Notice that we are stuck in the loop. We need to update the `n` somehow.  
 Take the above code and add a **single** line of code that could allow us to escape the loop.  
 
+Finally, let's look at string input. Your briefly covered strings in lecture and in chapter 1/2.
+Take a look at this code:
+```c++
+std::cout << "Hello" << std::endl;
+```
+* What type of string is being outputted here? (Hint: *String L...*.)
+
+Now look at this code:
+```c++
+std::string n = "";
+std::cin >> n;
+std::cout << n << std::endl;
+```
+* If we input `Hello there`, what would be the output?
+* Why is the output like this? (it's okay if you don't know)
+
+What if we changed it to look like this:
+```c++
+std::string n = "";
+std::getline(std::cin, n);
+std::cout << n << std::endl;
+```
+* Now, if we input `Hello there`, what would be the output?
+* What is the output like this? (look at what changed, and see what the new code says)
