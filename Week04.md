@@ -119,3 +119,20 @@ std::cout << n << std::endl;
 ```
 * Now, if we input `Hello there`, what would be the output?
 * What is the output like this? (look at what changed, and see what the new code says)
+
+<br>
+</br>
+
+Nice! You now have a general understanding of loops and `rand()` and string inputs.  
+Now to put it all together, you will now write a program that combines all of this.
+
+For this coding practice, you will be writing a random password 2FA locker.
+* Generate a random number between 0 and 400 inclusive.
+* Give the user 3 tries to guess the number.
+* If the user is unable to guess the number in 3 tries output the number and generate a new random number that is between 0 and 300 inclusive.
+* Give the user 3 tries to guess the new number.
+* If the user is still unable to guess the number output the number and generate another new random number between 0 and 200 inclusive.
+
+Notice the pattern, as we give them a new number to guess, the range decreases. Keep asking the user to guess the number until they fail the 4th attempt (0 - 100 inclusive).
+
+Think: How can be use loops to simplify the code? How can we use decremental operators to do this?
