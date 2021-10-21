@@ -135,4 +135,6 @@ For this coding practice, you will be writing a random password 2FA locker.
 
 Notice the pattern, as we give them a new number to guess, the range decreases. Keep asking the user to guess the number until they fail the 4th attempt (0 - 100 inclusive).
 
+If the user guesses correctly, exit loop, and output `Hooray!`
+
 Think: How can be use loops to simplify the code? How can we use decremental operators to do this?
