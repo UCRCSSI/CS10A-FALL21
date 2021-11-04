@@ -127,7 +127,8 @@ int foo(int x, int y) {
 * What is this function doing?
 * Looking at `int foo(int x, int y)`, what does the first `int` do?
     * What about the second `int x`? the third `int y`?
-    * What exactly is `foo`?
+    * What exactly is `foo`?  
+* If look at the original code again, what can you say about where functions should be created?
 
 Now looking at the inside of the function, you should notice a few things.
 * First, notice the `x` and `y` being used. Where are they coming from?
@@ -182,3 +183,25 @@ void foo(string str) {
 * Answer the two questions above, what does `void` do?
 
 Final note: Although void functions don't technically need a return, you can still put one.
+
+
+### Practice
+Note: Some information regarding functions are left out on purpose. You will be exploring/finding out these things here.  
+
+1. Given this `main()` create create the necessary functions to make the code work properly (there should be 3 functions):
+    ```c++
+    int main() {
+        int x = getNum();
+        int y = getNum();
+        
+        cout << MaxNum(x, y) << "is greater than" << MinNum(x, y) << endl;
+    }
+    ```
+
+2. Create a program that will find the volume of a sphere (4/3 * pi * r^3) given an inputted **diameter**.
+    The program should output the result. The program should also utilize functions and have as much of the `main()` as function calls.
+    These functions should be used/defined (The insides of the `()` are not given; what should go inside the `()`?).
+    * GetDiameter()
+    * CalcRadius()
+    * CalcSphereVol()
+
