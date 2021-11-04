@@ -205,3 +205,5 @@ Note: Some information regarding functions are left out on purpose. You will be 
     * CalcRadius()
     * CalcSphereVol()
 
+
+[Sample Solutions](https://replit.com/@PikaSannnnn/Practice-Week6-ExActivity#main.cpp)
