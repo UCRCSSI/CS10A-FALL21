@@ -1,4 +1,4 @@
-# Week 5
+# Week 7
 
 This will be another explorative session. This time, you will be looking ahead at Chapter 7: Functions.  
 
