@@ -1,7 +1,7 @@
 # Week 7
 
 ### Practice Tracing
-What is the output for each of these blocks of code?
+What is the output for each of these blocks of code?  
 1.
 ```c++
 int Sum(int a, int b) {
