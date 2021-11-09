@@ -152,3 +152,20 @@ The last parameter is known as an **optional parameter**. Essentially, it:
 3. If there *isn't* an argument, assign `delim` with the pre-designated value `\n` (endline).
 
 It's optional because if there isn't an argument, there'll be another value ready for it already.
+
+### Coding Practice
+1. **Who's the bigger area now?**
+
+    Create a program that will ask the user for two diameters. Using functions, the program will calculate the surface area of two spheres using each of the diameters.
+The program will then output both solutions using a `print()` function. Additionally, the program will determine which sphere has a larger surface area (using a function).
+   
+2. **Powering Up**
+
+    Create a program that will take in a **double** and an **integer**. The program will then calculate **double** to the power of **integer**.
+Use a function for this program.
+   
+3. **esreveR**
+
+    Create a program that will utilize a function that will **reverse** an inputted string (i.e car becomes rac).
+Make sure to ask the user for an input.  
+    Hint: How do you swap letters?
